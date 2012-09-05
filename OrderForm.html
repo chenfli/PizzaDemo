@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <title>
+      Configure Your Pizza!
+    </title>
+  </head>
+  <body>
+    <img alt="Logo" src="logo.gif">
+    <h2>Configure Your Pizza!</h2>
+    <form action="PizzaOrder.jsp" method="post">
+      <table>
+        <tr>
+          <th width="33%" bgcolor="#EEEEEE">Size</th>
+          <th width="66%" bgcolor="#EEEEEE">Ingredients</th>
+        </tr>
+        <tr>
+          <td><input type="radio" name="size" value="small">Small ($10.95)</td>
+          <td><input type="checkbox" name="mushrooms">Mushrooms</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="size" value="medium">Medium ($14.95)</td>
+          <td><input type="checkbox" name="beef">Beef</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="size" value="large" checked="true">Large ($18.95)</td>
+          <td><input type="checkbox" name="sausage">Sausage</td>
+        </tr>
+      </table>
+      <p>
+        All pizzas include our special mix of fresh cheeses.
+        Extra ingredients cost $1.00 per ingredient.
+      </p>
+      <p><input type="Submit" value="Next..."></p>
+    </form>
+  </body>
+</html>
